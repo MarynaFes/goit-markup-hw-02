@@ -57,26 +57,16 @@ body {
 .menu-link:focus {
     color: #404BBF;
 }
-.contact-email {
+.contacts {font-style: normal;}
+.contacts-information {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: inherit;
 }
-.contact-email:hover,
-.contact-email:focus {
-    color: #404BBF;
-}
-.contact-phone {
-    font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        color: inherit;
-}
-.contact-phone:hover,
-.contact-phone:focus {
+.contacts-information:hover,
+.contacts-information:focus {
     color: #404BBF;
 }
 /*========================HERO=========================*/
@@ -113,16 +103,20 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--main-title-color);
 }
+.advantages-item-description {line-height: 1.5;}
 /*=======================ABOUT=========================*/
 
 /*=======================TEAM==========================*/
 .team {background-color: #F4F4FD;}
+.team-menu {background-color: var(--main-background);}
 .team-menu-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
     color: var(--main-title-color);
 }
@@ -157,6 +151,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--main-title-color);
 }
 .projects-list-description {
