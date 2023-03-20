@@ -18,6 +18,17 @@ body {
     background-color: var(--white-background);
     color: var(--text);
 }
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    }
+img {display: block;}
+address {font-style: normal;}
+button {cursor: pointer;}
 .link {text-decoration: none;}
 .list {list-style: none;}
 /*======================COMPONENTS=====================*/
@@ -64,7 +75,6 @@ body {
 }
 .contacts {font-style: normal;}
 .contacts-information {
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     color: inherit;
@@ -94,7 +104,6 @@ body {
     background: var(--primary-brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -143,7 +152,6 @@ body {
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--primary-brand);
-    cursor: pointer;
 }
 .projects-menu-btn:hover,
 .projects-menu-btn:focus {
